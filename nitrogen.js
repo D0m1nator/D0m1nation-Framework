@@ -7,3 +7,6 @@ var nitrogen1,
 function nitrogenAddler(nitrogen1, nnitrogen2,nitrogen3){
     return console.log(nitrogen1+nnitrogen2+nitrogen3);
 }
+function(execSomth){
+    var FA={};
+}
