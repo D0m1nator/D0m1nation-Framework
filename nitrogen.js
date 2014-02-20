@@ -1,18 +1,3 @@
-'use strict';
-
-function (){
-
-
-
-    default function (){
-
-        function (){
-
-
-            function (){
-
-
-            }
-        }
-    }
+function commitResetter(param){
+   console.log(param) ;
 }
