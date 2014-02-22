@@ -9,3 +9,6 @@
 .console-input {
   color: greenyellow;
   display: block; }
+
+.console-output {
+  color: red; }
