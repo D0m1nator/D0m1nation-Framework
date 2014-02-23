@@ -33,6 +33,8 @@ var canFly=function(){
     return true;
 };
 
+canFly();
+
 assert(typeof  window.canFly()==='function', 'canfly DEFINED');
 assert(canFly().name==='', 'can fly has no name');
 
@@ -59,3 +61,7 @@ function outer(){
 outer();
 assert(window.inner === undefined, "inner still not in global scope");
 
+window.wieldsSword = function swingSword() {
+    return true;
+};
+assert(window,wieldsSword().name==='swingsSword', 'wieldSword - real name is swingsSword');
