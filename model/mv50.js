@@ -1,12 +1,23 @@
+function assert(callBackParam, stringParam){
+
+}
+
+//String definition
+var textCall='Domo Dominatus';
 /**
- * Created by Konstantin on 2/20/14.
- */
-var strYttrium='Yelement',
-    strVanadium='Vanadium';
-    funAlchemy=function(elemToTransmutate1, elemToTransmutate2){
-       return elemToTransmutate1 + elemToTransmutate2;
-    };
+ * Asert functions retrive function as parametr and text string with paramer
+ */`
+assert(
+    //Useless function as argument
+    useless(
+        //Callback function as argument
+        function(){
+            return text;
+        }
+    )===text, 'The useless function works!!!' + text//END
+);
 
-var request modifer
-
+var arrayToSort=[213, 16, 2058, 54, 10, 1965, 57, 9];
+sortedArray=arrayToSort.sort();
+console.log(sortedArray)
 
