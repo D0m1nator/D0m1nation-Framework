@@ -80,4 +80,51 @@ Function.prototype.method=function(name, func){
     return this;
 };
 
+var partedVarible;
+partedVarible = .9;
+addedPartVariable= partedVarible + .781;
+console.log(typeof partedVarible);
+//Exponental integer variables
+var exponentalVariable= 3e2,
+    addedExponentals=exponentalVariable+ .42e4;
 
+var RussianExpiriment= 672 +-67,
+    Expiriment=67-+567;
+
+metod(gUnit,function(powerToThePeople){
+    return "fight the power";
+});
+
+methodMan =array.prototype=function(){
+  return 'cat' === 'c' + 'a' + 't';
+};
+
+let yui=0;
+
+multiply: if (!nitrogen) {
+    return 2;
+
+} else {
+    return 1;
+};
+
+if (1===true) {return yui;}
+
+switch (yui){
+    case 1:
+        return "yui equals 1";
+    break;
+
+    case 2:
+        return "yui equals 2";
+    break;
+    default:
+        return "nothing interesting";
+}
+
+
+do{
+    var i=1;
+    i++;
+    console.log('do cycle');
+}while(i<20);
