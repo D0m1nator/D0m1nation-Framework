@@ -4,5 +4,5 @@
 
 function FFConstuct(arrParams){
     //put generator here witch fili values of object from multy layer array
-    
+
 }
