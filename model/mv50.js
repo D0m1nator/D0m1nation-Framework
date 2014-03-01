@@ -1,15 +1,27 @@
-(function(){
-    function swingSword(swordType, powerOfStrike){
-    console.log(swordType + ' '+ powerOfStrike);
-    return "strike performed " + swordType;
-}
+(function () {
+    var weaponGaussCannon = {
+        cooldown: '9 seconds'
+    };
 
-var strikeChain=[
-    x=swingSword('blade', 100),
-    y=swingSword('axe', 200),
-    z=swingSword('chainsaw', 100)
-];
-console.log("fakir #{strikeChain}");
-console.log(strikeChain);
+    weaponGaussCannon.prototype = {
+        damage: 100,
+        weight: '300kg',
+        stats: function () {
+            console.log(damage + weight);
+        }
+    };
+    console.log(weaponGaussCannon);
 
-})();
+    function dumpObject(recivedObject){
+        /**
+         * Dumping object data
+         */
+        for(var objKey in recivedObject ){
+            var objectKeyData;
+            console.log(objKey);// itertate over prototype
+            objectKeyData=objKey;
+            console.log(objectKeyData);
+        }
+    }
+
+}());
