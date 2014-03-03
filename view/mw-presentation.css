@@ -4,7 +4,8 @@
   font-weight: bold;
   width: 500px;
   height: 350px;
-  display: block; }
+  display: block;
+  border: 3px dashed cornflowerblue; }
 
 .console-input {
   color: greenyellow;
@@ -12,3 +13,9 @@
 
 .console-output {
   color: red; }
+
+.aviable-functions {
+  list-style: none;
+  color: cadetblue;
+  background-color: #000000;
+  font-weight: bold; }

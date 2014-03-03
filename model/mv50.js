@@ -1,4 +1,17 @@
-(function () {
+//NAMESPACE
+nitrogen();
+function nitrogen() {
+    //Assert testing function
+    function assertContract(value, desc) {
+        //
+        var liToWrite = document.createElement("li");
+        liToWrite.className = value ? "pass" : "fail";
+        liToWrite.appendChild(document.createTextNode(desc));
+        document.getElementById("console-output").appendChild(liToWrite);
+    }
+
+
+    //Prototypes Code
     var weaponGaussCannon = {
         cooldown: '9 seconds'
     };
@@ -10,18 +23,16 @@
             console.log(damage + weight);
         }
     };
-    console.log(weaponGaussCannon);
-
-    function dumpObject(recivedObject){
-        /**
-         * Dumping object data
-         */
-        for(var objKey in recivedObject ){
-            var objectKeyData;
+    /**
+     * Dumping object keys
+     * @param recivedObject
+     */
+    function dumpObject(recivedObject) {
+        for (var objKey in recivedObject) {
             console.log(objKey);// itertate over prototype
-            objectKeyData=objKey;
-            console.log(objectKeyData);
         }
     }
 
-}());
+    dumpObject(weaponGaussCannon);
+    //NAMESPACE END
+}
